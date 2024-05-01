@@ -12,3 +12,6 @@ persona = {
   "edad": "desconocida"
 }
 print( persona["apellido"], persona["edad"], persona["nombre"])
+
+
+# Andree - Crea un conjunto
