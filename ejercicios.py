@@ -4,3 +4,5 @@ tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 rango = range(1, 10)
 
 print(lista, tupla, rango)
+
+# Andree - Sintaxis de diccionario
