@@ -15,3 +15,7 @@ print( persona["apellido"], persona["edad"], persona["nombre"])
 
 
 # Andree - Crea un conjunto
+
+un_set = set([1,2,3,4,5])
+otro_set = frozenset(un_set)
+print(un_set, otro_set)
