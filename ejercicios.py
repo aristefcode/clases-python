@@ -6,3 +6,9 @@ rango = range(1, 10)
 print(lista, tupla, rango)
 
 # Andree - Sintaxis de diccionario
+persona = {
+  "nombre": "Pablo",
+  "apellido": "no se",
+  "edad": "desconocida"
+}
+print( persona["apellido"], persona["edad"], persona["nombre"])
