@@ -19,3 +19,6 @@ print( persona["apellido"], persona["edad"], persona["nombre"])
 un_set = set([1,2,3,4,5])
 otro_set = frozenset(un_set)
 print(un_set, otro_set)
+
+
+#Andree - f-strings
