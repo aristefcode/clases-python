@@ -22,3 +22,8 @@ print(un_set, otro_set)
 
 
 #Andree - f-strings
+nombref = 'Ana'
+lenguaje1 = 'Python'
+lenguaje2 = 'JavaScript'
+lenguaje3 = 'C++'
+print(f"Hola mi nombre es {nombref} y estoy aprendiendo {lenguaje1}, {lenguaje2} y {lenguaje3}")
