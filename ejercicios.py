@@ -1,31 +1,41 @@
-# Crear una lista tupla y rango con numeros del uno al 10
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-rango = range(1, 10)
+# # Crear una lista tupla y rango con numeros del uno al 10
+# lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# rango = range(1, 10)
 
-print(lista, tupla, rango)
+# print(lista, tupla, rango)
 
-# Andree - Sintaxis de diccionario
-persona = {
-  "nombre": "Pablo",
-  "apellido": "no se",
-  "edad": "desconocida"
-}
-print( persona["apellido"], persona["edad"], persona["nombre"])
-
-
-# Andree - Crea un conjunto
-
-un_set = set([1,2,3,4,5])
-otro_set = frozenset(un_set)
-print(un_set, otro_set)
+# # Andree - Sintaxis de diccionario
+# persona = {
+#   "nombre": "Pablo",
+#   "apellido": "no se",
+#   "edad": "desconocida"
+# }
+# print( persona["apellido"], persona["edad"], persona["nombre"])
 
 
-#Andree - f-strings
-nombref = 'Ana'
-lenguaje1 = 'Python'
-lenguaje2 = 'JavaScript'
-lenguaje3 = 'C++'
-print(f"Hola mi nombre es {nombref} y estoy aprendiendo {lenguaje1}, {lenguaje2} y {lenguaje3}")
+# # Andree - Crea un conjunto
+
+# un_set = set([1,2,3,4,5])
+# otro_set = frozenset(un_set)
+# print(un_set, otro_set)
+
+
+# #Andree - f-strings
+# nombref = 'Ana'
+# lenguaje1 = 'Python'
+# lenguaje2 = 'JavaScript'
+# lenguaje3 = 'C++'
+# print(f"Hola mi nombre es {nombref} y estoy aprendiendo {lenguaje1}, {lenguaje2} y {lenguaje3}")
 
 #Condicionales
+
+respuesta = input("Ingresa un color:")
+if(respuesta == "amarillo"): 
+  print("Seleccionaste amarillo el color de la amistad")
+elif(respuesta == "rojo"):
+  print("Seleccionaste el color del amor")
+elif(respuesta == "verde"):
+  print("Elegiste el color de la esperanza")
+else: 
+  print("Sigue intentando")
