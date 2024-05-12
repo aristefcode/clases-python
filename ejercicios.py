@@ -193,25 +193,83 @@
 # mi_ocho()
 
 
-def sumar_pares(lista):
-  sumar = 0
-  for element in lista:
-    if element %2 == 0:
-      cuadrado = element**2
-      sumar += cuadrado
-  return print(sumar)
+# def sumar_pares(lista):
+#   sumar = 0
+#   for element in lista:
+#     if element %2 == 0:
+#       cuadrado = element**2
+#       sumar += cuadrado
+#   return print(sumar)
 
-def sumar_impares(lista):
-  sumar_cubo = 0
-  for element in lista:
-    if element %2 != 0:
-      cubo = element**3
-      sumar_cubo += cubo
-  return print(sumar_cubo)
+# def sumar_impares(lista):
+#   sumar_cubo = 0
+#   for element in lista:
+#     if element %2 != 0:
+#       cubo = element**3
+#       sumar_cubo += cubo
+#   return print(sumar_cubo)
 
 
-def tercera(lista, sumar_pares, sumar_impares):
-  sumar_pares(lista)
-  sumar_impares(lista)
+# def tercera(lista, sumar_pares, sumar_impares):
+#   sumar_pares(lista)
+#   sumar_impares(lista)
 
-tercera((1, 2, 3, 4, 5, 6, 7, 8, 9, 10) , sumar_pares, sumar_impares)
+# tercera((1, 2, 3, 4, 5, 6, 7, 8, 9, 10) , sumar_pares, sumar_impares)
+
+# texto = "este es el baile del michi, uno, dos, tres, cuatro"
+# count = 0
+# for char in texto:
+#   count += 1
+# print(count)
+
+# def palabra (*lista): 
+#   listafinal = []
+#   for palabra in lista:
+#     if(palabra.startswith('J')):
+#       listafinal.append(palabra)
+#   print(listafinal)
+# palabra('Pablo', 'Jose', 'Juan', 'Andree')
+
+
+# texto ="Este es un texto de ejemplo.\npython es un lenguaje de programación desafiante y poderoso."
+# print(len(texto))
+
+# lista = texto.split()
+# print(lista)
+# for i, element in enumerate(lista):
+#   if element == "python":
+#     lista[i] = element.capitalize()
+# print(lista)
+
+# Encuentra la posición de la primera aparición de la palabra 'desafiante'. 
+# lista = texto.split()
+# index= 0
+# for i, element in enumerate(lista):
+#   if element == "desafiante":
+#     index = i 
+# print(index, 'desafiante')
+
+# Elimina espacios en blanco al principio y al final del texto.
+# print(texto.strip(), 'strip')
+
+# Divide el texto en una lista de palabras.
+# lista = texto.split()
+# print(lista, 'con split')
+
+# Verifica si el texto comienza con la palabra 'Este'. 🧠
+# print(texto.startswith('Este'))
+
+
+# deportes = ['futbol', 'baloncesto', 'tenis', 'natacion']
+# print(deportes[3])
+# print(deportes[0:3])
+# print(deportes[0:4])
+# print(deportes[-2])
+
+
+juegos = ['monopoly', 'ajedrez', 'scrabble']
+mayusculas = [juego.upper()  for juego in juegos]
+print(mayusculas)
+
+num_letras = [len(juego) for juego in juegos]
+print(num_letras)
