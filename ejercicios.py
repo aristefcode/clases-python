@@ -267,9 +267,45 @@
 # print(deportes[-2])
 
 
-juegos = ['monopoly', 'ajedrez', 'scrabble']
-mayusculas = [juego.upper()  for juego in juegos]
-print(mayusculas)
+# juegos = ['monopoly', 'ajedrez', 'scrabble']
+# mayusculas = [juego.upper()  for juego in juegos]
+# print(mayusculas)
 
-num_letras = [len(juego) for juego in juegos]
-print(num_letras)
+# num_letras = [len(juego) for juego in juegos]
+# print(num_letras)
+
+# lista del 1 al 30; for enumerate *3 fizz *5buzz Y 3y 5 fizzbuzz
+
+# lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+# resultado = []
+# for element in lista:
+#   resultado.append(element)
+#   if element % 3 == 0 and element % 5 ==0:
+#     resultado.append("fizz buzz")
+#   elif element%3 == 0:
+#     resultado.append("fizz")
+#   elif element%5 == 0:
+#     resultado.append("buzz")
+
+# print(resultado)
+
+
+# lista = ['platano', 'fresa', 'manzana']
+# def funcion (frutas):
+#   existe = False
+#   lista = frutas
+#   quitar = input("¿Qué fruta desea quitar: ")
+#   print(quitar)
+#   for element in lista:
+#     if element == quitar:
+#       lista.remove(element)
+#       existe=True
+
+#   if existe == True:
+#     print('fruta eliminada',lista)
+#   else:
+#     print("La fruta que usted selecciono no se encuentra en la lista")
+  
+# funcion(["platano", "fresa", "manzana"])
+
+
