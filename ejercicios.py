@@ -309,3 +309,62 @@
 # funcion(["platano", "fresa", "manzana"])
 
 
+# def Veces (lista, element):
+#   count = 0
+#   for elemento in lista:
+#     if elemento == element:
+#       count +=1
+#   return print(count)
+
+# Veces((1,2,3,4,5,6,1,2,3,1,2,6), 5)
+
+
+
+
+# def crud ():
+#   lista = ['Andree', 'Pablo', 'Tania', 'Diana']
+#   operacion = int(input('Seleccione la operación que desea realizar (1-5) \n 1. Agregar Usuarios \n 2. Mostrar Usuarios \n 3. Actualizar Usuario \n 4. Borrar usuario \n 5. Salir\n'))
+#   if(operacion == 1):
+#     nuevo = input('Ingrese el usuario que desea agregar: ')
+#     lista.append(nuevo)
+#   elif(operacion == 2):
+#     print(f'Los datos actuales son: {lista}')
+#   elif(operacion == 3):
+#     actual = input('Ingrese el dato actual: ')
+#     modificar = input('Ingrese el dato modificado: ')
+#     textoactual = lista.index(actual)
+#     lista.remove(actual)
+#     lista.insert(textoactual, modificar)
+#   elif(operacion == 4):
+#     aborrar= input('Ingrese el dato a borrar: ')
+#     lista.remove(aborrar)
+#   elif(operacion == 5):
+#     return 
+#   print(lista)
+# crud()
+
+
+# def Libros():
+#   biblioteca_1= {'Harry Potter', 'Codigo da Vinci', 'El señor de los Anillos', 'Cien años de soledad'}
+#   biblioteca_2= {'Harry Potter', 'Orgullo y Perjuicio', 'Cien años de Solead', 'Don Quijote'} 
+#   print(biblioteca_1)
+#   print(biblioteca_2)
+#   print(f'Libros comunes de ambas bibliotecas {biblioteca_1.intersection(biblioteca_2)}')
+#   print(f'Libros unicos en la biblioteca 1 {biblioteca_1.difference(biblioteca_2)}')
+#   print(f'Libros unicos en la biblioteca 2 {biblioteca_2.difference(biblioteca_1)}')
+
+#   print(f'Libros en la biblioteca completa son: {biblioteca_2.difference(biblioteca_1)}')
+
+#   print(f'Libros unicos en la biblioteca 1 {biblioteca_1.union(biblioteca_2)}')
+
+#   print(f'¿La biblioteca 1 es subconjunto de la biblioteca completa? {biblioteca_1.issubset(biblioteca_1.union(biblioteca_2))}')
+  
+#   nuevo = input('¿Cuál es el nuevo libro que desea agregar a la biblioteca: ')
+#   print(f'El nuevo libro a sido añadido a ambas bibliotecas')
+#   biblioteca_1.add(nuevo)
+#   biblioteca_2.add(nuevo)
+#   print(f'Libros unicos en la biblioteca 1 {biblioteca_1}')
+#   print(f'Libros unicos en la biblioteca 2 {biblioteca_2}')
+
+# Libros()
+
